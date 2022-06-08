@@ -1471,6 +1471,10 @@
         <opensaml2.version>2.6.6.wso2v4</opensaml2.version>
         <rampart.wso2.version>1.7.0-wso2v1</rampart.wso2.version>
         <wss4j.version>1.6.0-wso2v2</wss4j.version>
+	    
+  <sonar.organization>nsguard</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	    
     </properties>
 
 </project>
