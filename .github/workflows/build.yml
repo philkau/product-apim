@@ -1,10 +1,7 @@
 name: Build
 on:
-  push:
-    branches:
-      - release-3.2.0-r537
-  pull_request:
-    types: [opened, synchronize, reopened]
+  schedule:
+  - cron: 15 7 * * *
 jobs:
   build:
     name: Build
